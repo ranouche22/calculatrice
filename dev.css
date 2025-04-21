@@ -1,0 +1,132 @@
+.banner {
+    background-image: url('https://example.com/image-voyage.jpg'); /* Remplacez par votre image */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .banner h1 {
+    font-size: 3rem;
+    margin: 0;
+  }
+  
+  .banner p {
+    font-size: 1.5rem;
+  }
+  .destinations {
+    text-align: center;
+    margin: 50px 0;
+  }
+  
+  .destinations h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .destination-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+  }
+  
+  .destination-card img {
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .destination-card h3 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+  }
+  
+  .destination-card p {
+    font-size: 1rem;
+    padding: 0 10px;
+  }
+  .testimonials {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+  
+  .testimonial-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .testimonial {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+  }
+  
+  .testimonial p {
+    font-style: italic;
+    color: #555;
+  }
+  .footer {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .footer-content ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-content ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  .footer-content a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .footer-content a:hover {
+    text-decoration: underline;
+  }
+  .cta-container {
+    text-align: center;
+    margin-top: 40px;
+  }
+  
+  .cta-button {
+    background-color: #ff6347;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    text-decoration: none;
+  }
+  
+  .cta-button:hover {
+    background-color: #e5533d;
+  }
+          

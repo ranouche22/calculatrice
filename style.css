@@ -1,0 +1,4 @@
+tr :nth-child(2n) {
+    background: grey;
+}
+

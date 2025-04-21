@@ -1,0 +1,189 @@
+
+
+.header{
+    display: flex;
+    justify-content:space-around    ;
+    flex-direction:row;
+    align-items: start;
+    background-color: rgba(83, 137, 207, 0.1);
+
+   }
+   .logo{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bold;
+   }
+   .logo span{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+   }
+ 
+    
+    .header {
+        display: flex;
+        overflow: hidden;
+        margin-top: 0px;
+        font-weight: 700;
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 20px;
+        font-display: fallback;
+        font-style: oblique;
+        background-color: rgb(38, 0, 99);;
+        align-items: center;
+        box-shadow :inset;
+        
+    
+        cursor: pointer;
+        font-size: 25px;
+        }
+        .ul {
+        display: flex;
+        align-items: start;
+        gap:20px ;
+        font-size: 30px;
+        color: aliceblue;
+        }
+       
+        .ul li {
+            list-style:none;
+        }
+
+.nav{
+    color:rgb(210, 223, 209);
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.btn{
+   padding: 10px;
+   width: 300px;
+   background-color: rgb(212, 207, 207);
+   color: rgb(0, 0, 0);
+   border-radius: 10px;
+}
+.carte-container{
+    width: 20%;
+    padding: 10px;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    height: 100vh;
+    background-image: url('image/kkk.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.flex .h1{
+   font-size: 60px;
+   color: rgb(38, 0, 99);
+}
+.flex .btn a{
+  text-decoration: none;
+}
+.div para{ 
+    display: flex;
+    text-align: rigth;
+}
+.footer{
+background-color:rgb(38, 0, 99);
+color: #ddd;
+height: auto;
+}
+.footer-content{
+    color: #ddd;
+}
+.footer-content a{
+    color: #ddd;
+}
+.cta-button{
+    color: #ddd;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 100%;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+
+.blog-posts {
+    background-color: white;
+    padding: 10px 0;
+}
+
+.post {
+    border-bottom: 1px solid #ddd;
+    /* padding: 20px; */
+    text-align: left;
+    height: auto;
+    width: 300px; border: 2px solid rgb(38, 0, 99);;
+    border-radius: 10px;
+}
+
+.post h2 {
+    padding: 10px;
+    text-align: center;
+}
+
+.post .meta {
+    color: #888;
+    font-size: 0.9em;
+    padding: 4px;
+}
+.post .para{
+    padding: 4px;
+}
+
+.post a {
+    color: #333;
+    border: 2px solid #333;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 4px;
+    margin: 20px;
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+    align-content: center;
+    }
+    .post-image {
+     width: 100%;
+     height: 300px;
+     object-fit: cover;
+     border-radius: 10px 10px 0px 0px;
+    }
+   .ac h1{
+    border: 0px solid #1a0497;
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+    text-decoration:none;
+
+   }
+   .footer-content  {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    list-style: none;
+  
+   }
+
+.footer p{
+   text-align: center;
+   /* padding: 5px; */
+}
